@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+
+    
+
+    <div class="container">
+        <h2>Calculator</h2>
+
+        <div id="display">
+            <input type="input" id="input" value=0>
+        </div>
+
+        <div id="keys">
+
+                <button id="clear" onclick="getOperation('c')">C</button>
+                <button id="percentage" onclick="getOperation('%')">%</button>
+                <button id="delete" onclick="getOperation('x')">X</button>
+                <button id="divide" onclick="getOperation('/')">/</button>
+
+
+
+                <button id="block7" onclick=" getNumber(7)">7</button>
+                <button id="block8"onclick=" getNumber(8)">8</button>
+                <button id="block9"onclick=" getNumber(9)">9</button>
+                <button id="multiply" onclick="getOperation('*')">*</button>
+                
+
+                <button id="block4" onclick=" getNumber(4)">4</button>
+                <button id="block5"onclick=" getNumber(5)">5</button>
+                <button id="block6"onclick=" getNumber(6)">6</button>
+                <button id="minus" onclick="getOperation('-')">-</button>
+                
+
+                <button id="block1"onclick=" getNumber(1)">1</button>
+                <button id="block2"onclick=" getNumber(2)">2</button>
+                <button id="block3"onclick=" getNumber(3)">3</button>
+                <button id="plus" onclick="getOperation('+')">+</button>
+                
+
+                <button id="block0" onclick="getNumber(0)">0</button>
+                <button id="dot" onclick="getOperation('.')">.</button>
+                <button id="ans" onclick="getOperation('=')">=</button>
+      
+
+
+        </div>
+
+        <p>Copyright (c) Gaurav Gogoi 2023</p>
+
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
